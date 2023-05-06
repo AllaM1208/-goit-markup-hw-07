@@ -106,27 +106,29 @@ ul {
     /* Phone styles & > */
     min-width: 320px;
     max-width: 428px;
-
     margin-left: auto;
     margin-right: auto;
-
     padding-left: 16px;
     padding-right: 16px;
 
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+
+    outline: 2px solid #fc0808;
+    outline-offset: -2px;
   }
  /* Tablet styles & > */
  @media only screen and (min-width: 768px) {
     .container {
-     
+        max-width: 768px;         
    }
  }
 
  /* Desktop styles & > */
- @media only screen and (min-width: 1200px) {
+ @media only screen and (min-width: 1158px) {
     .container {
+        max-width: 1158px;
     
    }
  }
