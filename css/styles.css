@@ -103,25 +103,28 @@ ul {
 }
 
 .container {
-    /* Phone styles & > */
     min-width: 320px;
-    max-width: 428px;
+    max-width: 1158px;
+    padding-left: 16px;
+    padding-right: 16px;  
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-
+    
     outline: 2px solid #fc0808;
-    outline-offset: -2px;
-  }
+    outline-offset: -2px;        
+}
+
+/* Phone styles & > */
+@media only screen and (min-width: 428px) {
+    .container {       
+        max-width: 428px;        
+    }
+}
+
  /* Tablet styles & > */
  @media only screen and (min-width: 768px) {
     .container {
-        max-width: 768px;         
+        max-width: 768px;       
    }
  }
 
@@ -129,8 +132,7 @@ ul {
  @media only screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
-    
-   }
+    }
  }
 
 
