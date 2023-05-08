@@ -103,13 +103,32 @@ ul {
 }
 
 .container {
-    width: 1158px;
+/* Phone styles & > */
+    min-width: 320px;
+    max-width: 428px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 16px;
 
     outline: 2px solid red;
     outline-offset: -2px;
 }
+    
+/* Tablet styles & > */
+@media only screen and (min-width: 768px) {
+    .container {
+        
+    }
+}
+
+/* Desktop styles & > */
+@media only screen and (min-width: 1158px) {
+    .container {
+        /* width: 1158px; */
+        /* padding: 0 15px; */
+    }
+}
+
+
 
 .project-card-box {
     position: relative;
