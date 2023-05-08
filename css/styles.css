@@ -66,6 +66,11 @@
     --animation-transition: 250ms;
     --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+
+    /* --footer-socials-icon-background-color-1: #4D5AE5;
+    --footer-socials-icon-background-hover-focus: #31D0AA; */
+
+
 }
 
 /* =========================================== */
@@ -1316,4 +1321,46 @@ ul {
 .modal-form-button:hover,
 .modal-form-button:focus {
     background-color: var(--button-change-color-1);
+}
+
+
+
+
+/*  Mobile window  */
+/* =============================== */
+
+/* =============================== */
+/* Mobile menu*/
+
+.mobile-menu-socials {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.mobile-menu-socials-item {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-menu-socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--footer-socials-icon-background-color-1);
+    border-radius: 50%;
+
+    transition-property: color, background-color;
+    transition-duration: var(--animation-transition);
+    transition-timing-function: var(--transition-timing-function);
+}
+
+.mobile-menu-socials-icon {
+    fill: var(--socials-icon-color-1);
+    width: 24px;
+    height: 24px;
 }
