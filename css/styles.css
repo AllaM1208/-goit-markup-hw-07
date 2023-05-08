@@ -106,6 +106,9 @@ ul {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
 }
 
 .project-card-box {
@@ -126,8 +129,6 @@ ul {
 .header-container {
     display: flex;
     align-items: center;
-
-    padding: 0 15px;
 }
 
 .header-menu {
