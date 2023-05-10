@@ -194,8 +194,12 @@ ul {
 @media only screen and (max-width: 427px) {
     .header-logo {
         margin-right: auto;
+        padding-top: 24px;
+        padding-bottom: 22px;
     }
 }
+
+
 
 .header-logo-studio {
     font-family: 'Raleway';
