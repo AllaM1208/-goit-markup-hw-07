@@ -622,13 +622,12 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
+    justify-content: center;
 }
 
-
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 768px) {
     .list-team {
-        /* display: flex;
-        gap: 24px; */
+        gap: 24px; 
   }
 }
 
@@ -666,6 +665,12 @@ ul {
     color: var(--dark-text-color-2);
 
     margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+   .item-team-tablet {
+    margin-bottom: 48px;
+  }
 }
 
 .socials {
@@ -713,7 +718,13 @@ ul {
 /* customers section 5 */
 
 .customers-section {
-    padding: 120px 0;
+    padding: 96px 0; 
+}
+
+@media only screen and (min-width: 1158px) {
+    .customers-section { 
+        padding: 120px 0;
+  }
 }
 
 .title-container {
@@ -723,13 +734,19 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--dark-text-color-1);
+    color: var(--dark-text-color-1); 
 }
 
 .clients-list {
     display: flex;
     justify-content: center;
+    gap: 16px; 
+}
+
+@media only screen and (min-width: 768px) {
+    .clients-list {
     gap: 24px;
+  }
 }
 
 .clients-container {
