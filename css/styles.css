@@ -441,37 +441,81 @@ ul {
     display: flex; 
 }
 
-.features-item-strategy {
-    width: calc((100% - 72px) / 4);
-}
-
-
 .list-features {
     display: flex;
-    padding-left: 0px;
-    gap: 24px;
+    flex-wrap: wrap;
 }
 
+ @media only screen and (min-width: 768px) {
+    .list-features {
+        display: flex;
+        /* padding-left: 0px; */
+        gap: 24px;      
+   }
+ }
+
+@media only screen and (min-width: 1158px) {
+    .list-features {
+        display: flex;
+        padding-left: 0px;
+        gap: 24px;     
+  }
+}
+
+.features-item-strategy {
+    /* width: calc((100% - 72px) / 4); */
+}
+
+ @media only screen and (min-width: 768px) {
+     .features-item-strategy {
+         width: calc((100% - 24px) / 2);
+     }
+ }
+
+ @media only screen and (min-width: 1158px) {
+    .features-item-strategy {
+        width: calc((100% - 72px) / 4); 
+   }
+ }
+
 .icon-container {
+    display: none;
+}
+
+@media only screen and (min-width: 1158px) {
+    .icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 112px;
-
+    
     background: var(--light-background-color-1);
-
+    
     border-radius: 4px;
-    margin-bottom: 8px; 
+    margin-bottom: 8px;    
+  }
 }
 
 .features-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
     letter-spacing: 0.02em;
     color: var(--dark-text-color-1);
 
     margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 1158px) {
+    .features-title {
+        justify-content: flex-start;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;        
+    }
 }
 
 .visually-hidden {
@@ -493,9 +537,29 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 }
 
-/* features section 2 */
+
+  /* font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em; */
+
+
+@media only screen and (max-width: 1157px) {
+    .features-text-bottom {
+    margin-bottom: 0px;    
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .features-text-bottom-two {
+        margin-bottom: 0px;
+    }
+ } 
+
+
+ /* features section 2 */
 /* =============================== */
 
 
