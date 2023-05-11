@@ -739,6 +739,7 @@ ul {
 
 .clients-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 16px; 
 }
@@ -750,8 +751,16 @@ ul {
 }
 
 .clients-container {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 16px) / 2);
     height: 88px;
+    /* width: calc((100% - 120px) / 6);
+    height: 88px; */
+}
+
+@media only screen and (max-width: 767px) {
+.clients-container-mobile {
+    margin-bottom: 56px;    
+  }
 }
 
 .clients-link {
