@@ -444,6 +444,7 @@ ul {
 .list-features {
     display: flex;
     flex-wrap: wrap;
+    gap: 72px;
 }
 
  @media only screen and (min-width: 768px) {
@@ -462,11 +463,7 @@ ul {
   }
 }
 
-.features-item-strategy {
-    /* width: calc((100% - 72px) / 4); */
-}
-
- @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
      .features-item-strategy {
          width: calc((100% - 24px) / 2);
      }
@@ -508,6 +505,11 @@ ul {
 
     margin-bottom: 8px;
 }
+@media only screen and (min-width: 768px) {
+    .features-title {
+        justify-content: flex-start;
+  }
+}
 
 @media only screen and (min-width: 1158px) {
     .features-title {
@@ -536,31 +538,16 @@ ul {
 .features-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 72px;
+    letter-spacing: 0.02em;  
 }
 
-@media only screen and (min-width: 1158px) {
-    .features-text {
-    margin-bottom: 0px;
-  }
-}
-  /* font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em; */
-
-
-@media only screen and (max-width: 1157px) {
-    .features-text-bottom {
-    margin-bottom: 0px;    
-  }
-}
-
-@media only screen and (min-width: 768px) {
-    .features-text-bottom-two {
-        margin-bottom: 0px;
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+    .features-text-tablet {
+        margin-bottom: 48px;
     }
- } 
+}
+
+/* margin-bottom: 72px; */
 
 
  /* features section 2 */
@@ -582,8 +569,6 @@ ul {
         padding-bottom: 120px; 
     }
 }
-
-
 
 .doing-title {
     font-size: 36px;
@@ -613,12 +598,18 @@ ul {
 /*  team section 4 */
 
 .team {
-    padding: 120px 0;
+    padding: 96px 0;
     background: var(--light-background-color-1);
 }
 
+@media only screen and (min-width: 1158px) {
+    .team {
+        padding: 120px 0;
+    }
+}
+
 .title-team {
-    margin-bottom: 72px;
+    margin-bottom: 72px;    
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -629,8 +620,18 @@ ul {
 
 .list-team {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px;
 }
+
+
+@media only screen and (min-width: 1158px) {
+    .list-team {
+        /* display: flex;
+        gap: 24px; */
+  }
+}
+
 
 .item-team {
     flex-basis: calc((100% - 72px) / 4);
