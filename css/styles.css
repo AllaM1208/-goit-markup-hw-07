@@ -968,16 +968,25 @@ ul {
     display: flex;
     justify-content: center;
     gap: 16px;
+    
+}
+@media only screen and (max-width: 767px) {
+    .footer-socials {
+        margin-bottom: 72px;
+    }
 }
 
-.footer-mail-container {
-    margin-left: auto;
-}
 
+@media only screen and (min-width: 1158px) {
+    .footer-mail-container {
+        margin-left: auto; 
+    }
+ }
 .footer-mail-team {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-bottom: 16px;
-
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -987,8 +996,16 @@ ul {
     color: var(--light-text-color-2);
 }
 
-.footer-mail-form {
-    display: flex;
+@media only screen and (min-width: 768px) {
+    .footer-mail-team {
+        display: block;     
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-mail-form {
+        display: flex; 
+      }
 }
 
 .footer-mail-field {
