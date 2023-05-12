@@ -787,8 +787,6 @@ ul {
   }
 }
 
-
-
 .clients-link {
     display: flex;
     width: 100%;
@@ -815,7 +813,6 @@ ul {
     width: 104px;
     height: 56px;
     fill: currentColor;
-
 }
 
 /* customers section 5 */
@@ -826,16 +823,31 @@ ul {
 
 .footer-section {
     background: var(--dark-background-color-1);
-    padding: 100px 0;
+    padding: 96px 0; 
+}
+
+@media only screen and (min-width: 1158px) {
+    .footer-section {
+        padding: 100px 0;    
+  }
 }
 
 .footer-container {
     display: flex;
-    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+@media only screen and (min-width: 1158px) {
+    .footer-container {         
+        padding: 100px 0;
+        align-items: baseline;
+    }
+}
+
+
 .footer-logo-container {
-    margin-right: 120px;
+     /* margin-right: 120px; */
 }
 
 .footer-section-text {
@@ -848,9 +860,10 @@ ul {
 }
 
 .footer-logo {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin-bottom: 16px;
-
+    
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -859,7 +872,13 @@ ul {
     color: var(--logo-color-1);
 
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-logo {
+        display: inline-block;    
+  }
 }
 
 .footer-logo-studio {
