@@ -821,85 +821,20 @@ ul {
 /* =============================== */
 /*footer section */
 
+/*footer section */
+
 .footer-section {
     background: var(--dark-background-color-1);
-    padding: 96px 0; 
-}
-
-@media only screen and (min-width: 1158px) {
-    .footer-section {
-        padding: 100px 0;    
-  }
+    padding: 100px 0;
 }
 
 .footer-container {
     display: flex;
-    flex-wrap: wrap;
-}
-
-@media only screen and (min-width: 1158px) {
-    .footer-container {         
-        align-items: baseline;
-    }
+    align-items: baseline;
 }
 
 .footer-logo-container {
-    margin-bottom: 72px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media only screen and (min-width: 1158px) {
-    .footer-logo-container { 
-        margin-bottom: 0px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .footer-logo-container {
-        margin-right: 24px;
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-    .footer-logo-container {
-        margin-right: 120px;
-    }
-}
-
-
-.footer-logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
-    
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--logo-color-1);
-    
-    text-transform: uppercase;
-    text-decoration: none; 
-}
-
-@media only screen and (min-width: 768px) {
-    .footer-logo {
-        display: inline-block;    
-    }
-}
-
-.footer-logo-studio {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--logo-color-3);
-    
-    text-transform: uppercase;
-    text-decoration: none;
+    margin-right: 120px;
 }
 
 .footer-section-text {
@@ -911,20 +846,31 @@ ul {
     color: var(--light-text-color-1);
 }
 
-.footer-icon-container {
-    margin-left: auto;
-    margin-right: auto;
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-1);
+
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.footer-social-team {
-    display: flex;
-    justify-content: center;
-}
+.footer-logo-studio {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-3);
 
-@media only screen and (min-width: 768px) {
-    .footer-social-team {
-        justify-content: flex-start;
-    }
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .footer-socials-item {
@@ -975,25 +921,16 @@ ul {
     display: flex;
     justify-content: center;
     gap: 16px;
-    
-}
-@media only screen and (max-width: 767px) {
-    .footer-socials {
-        margin-bottom: 72px;
-    }
 }
 
+.footer-mail-container {
+    margin-left: auto;
+}
 
-@media only screen and (min-width: 1158px) {
-    .footer-mail-container {
-        margin-left: auto; 
-    }
- }
 .footer-mail-team {
-    display: flex;
-    justify-content: center;
+    display: block;
     margin-bottom: 16px;
-    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -1003,27 +940,13 @@ ul {
     color: var(--light-text-color-2);
 }
 
-@media only screen and (min-width: 768px) {
-    .footer-mail-team {
-        display: block;     
-  }
-}
-
-@media only screen and (min-width: 768px) {
-    .footer-mail-form {
-        display: flex; 
-      }
+.footer-mail-form {
+    display: flex;
 }
 
 .footer-mail-field {
     display: flex;
     position: relative;
-    margin-bottom: 16px;
-}
-@media only screen and (min-width: 768px) {
-.footer-mail-field{
-    margin-bottom: 0px;
-  }
 }
 
 .footer-mail-input {
@@ -1031,7 +954,7 @@ ul {
     justify-content: center;
     align-items: center;
 
-    width: 398px;
+    width: 264px;
     height: 40px;
 
     padding-top: 8px;
@@ -1054,13 +977,6 @@ ul {
 
     outline: 2px solid transparent;
     outline-offset: -2px;
-}
-
-
-@media only screen and (min-width: 768px) {
-    .footer-mail-input {
-        width: 264px;
-    }
 }
 
 .footer-mail-input:focus+.footer-mail-icon {
@@ -1090,13 +1006,12 @@ ul {
 
 .footer-mail-button {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: space-between;
     align-items: center;
 
     padding: 8px 24px;
-   
+    margin-left: 24px;
+
     min-width: 165px;
     height: 40px;
 
@@ -1126,6 +1041,11 @@ ul {
 .footer-mail-button:focus {
     background-color: var(--button-change-color-1);
 }
+
+
+
+  
+
 
 /* footer section */
 /* =============================== */
