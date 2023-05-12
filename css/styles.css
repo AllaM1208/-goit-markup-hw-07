@@ -840,7 +840,6 @@ ul {
 
 @media only screen and (min-width: 1158px) {
     .footer-container {         
-        padding: 100px 0;
         align-items: baseline;
     }
 }
@@ -908,6 +907,17 @@ ul {
 
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.footer-social-team {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-social-team {
+        justify-content: flex-start;
+    }
 }
 
 .footer-socials-item {
