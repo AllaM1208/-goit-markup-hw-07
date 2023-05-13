@@ -1561,6 +1561,12 @@ ul {
     transition-timing-function: var(--transition-timing-function);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 427px) {
+    .modal-form-agreement-box {
+    appearance: auto;
+  }
+}
+
 .modal-form-agreement-box:checked {
     border-radius: 2px;
     border: 1px solid var(--modal-form-agreement-box-checked);
