@@ -349,9 +349,56 @@ ul {
     
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image-section-1/people-office-1.jpg);
+    /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+     url(../images/hero-image-section-1/people-office-1.jpg); */
     background-size: cover;
 }
+
+/* image mobile =========*/
+@media only screen and (max-width: 767px) {
+    .hero-image {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-image-section-1/people-office_mobile@1x.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero-image {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/hero-image-section-1/people-office_mobile@2x.jpg);
+        }
+}
+/* image tablet =========*/
+
+@media only screen and (min-width: 768px) {
+    .hero-image {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-image-section-1/people-office_tablet@1x.jpg);
+    }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+.hero-image {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-image-section-1/people-office_tablet@2x.jpg);
+    }
+}
+/* image desk =========*/
+
+@media only screen and (min-width: 1158px) {
+    .hero-image {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-image-section-1/people-office_desk@1x.jpg);
+    }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+.hero-image {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-image-section-1/people-office_desk@2x.jpg);
+    }
+}
+
 
 @media only screen and (min-width: 1158px) {
     .hero-image {
