@@ -1354,6 +1354,12 @@ ul {
 
     transition: transform 400ms ease-in 200ms, opacity 400ms ease-in 200ms;
 }
+@media only screen and (min-width: 320px) and (max-width: 427px) {
+    .modal {
+    width: calc( 100% - 36px );
+  }
+}
+
 
 .backdrop.is-hidden .modal {
     opacity: 0;
