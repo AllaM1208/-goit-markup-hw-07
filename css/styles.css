@@ -349,8 +349,6 @@ ul {
     
     background-repeat: no-repeat;
     background-position: center;
-    /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-     url(../images/hero-image-section-1/people-office-1.jpg); */
     background-size: cover;
 }
 
