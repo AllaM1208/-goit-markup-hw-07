@@ -1656,13 +1656,47 @@ ul {
     transform: translateX(0);
 }
 
+
+/*================================ */
+/* кнопка закриття меню */
+
 .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
-    color: #fff;
+    top: 24px;
+    right: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px;
+    height: 24px;
+        
+    background-color: rgb(231, 233, 252, 0,1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition-property: color, background-color;
+    transition-duration: var(--animation-transition);
+    transition-timing-function: var(--transition-timing-function);
 }
 
+.menu-container .menu-toggle:hover,
+.menu-container .menu-toggle:focus {
+    background-color: var(--modal-window-button-background-hover-focus);
+    color: var(--modal-icon-close-color-1-hover-focus);
+}
+
+.modal-icon-close {
+    fill: currentColor;
+    width: 8px;
+    height: 8px;
+}
+
+/* ================================== */
+
+/* бургер меню */
 .menu-toggle {
     width: 32px;
     height: 32px;
@@ -1680,6 +1714,7 @@ ul {
     border-radius: 50%;
     outline: none; 
 }
+/* ================================== */
 
 .menu-toggle-icon {
     fill: var(--modal-icon-color-1);
