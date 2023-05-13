@@ -1652,11 +1652,7 @@ ul {
     padding-left: 40px;
     padding-bottom: 40px;
     padding-right: 40px;
-
-    /* скрол */
-    max-height: 586px;
-    overflow-y: auto;
-
+ 
     background-color: var(--mobile-menu-background-color);
     z-index: var(--modal-idx);
 
@@ -1746,7 +1742,7 @@ ul {
 }
 
 .mobile-menu {
-    margin-bottom: 284px;
+    margin-bottom: 150px;
 }
 
 .mobile-menu-item {
