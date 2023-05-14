@@ -1706,7 +1706,7 @@ ul {
 
 .menu-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 
     position: fixed;
     top: 0;
@@ -1809,7 +1809,7 @@ ul {
 }
 
 .mobile-menu {
-    /* margin-bottom: 284px; */
+    margin-bottom: auto;
 }
 
 .mobile-menu-item {
