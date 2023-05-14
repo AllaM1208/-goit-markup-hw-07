@@ -1611,6 +1611,7 @@ ul {
 
 .modal-form-agreement-box {
     appearance: none;
+    flex-shrink: 0;
 
     width: 16px;
     height: 16px;
