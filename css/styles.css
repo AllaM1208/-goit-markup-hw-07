@@ -1914,12 +1914,12 @@ ul {
     gap: 56px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 427px) {
+@media only screen and (min-width: 320px)  and (max-width: 427px){
     .mobile-menu-socials {
         gap: 24px;
     }
 }
-    
+
 .mobile-menu-socials-item {
     width: 40px;
     height: 40px;
