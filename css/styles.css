@@ -1884,7 +1884,14 @@ ul {
     color: var(--text-color-change-1);
 }
 
-    
+@media only screen and (min-width: 320px) and (max-width: 427px) {
+    .mobile-menu-tel {
+        font-size: 24px;    
+  }
+}  
+
+
+
 
 .mobile-menu-mail {
     font-weight: 500;
@@ -1905,6 +1912,12 @@ ul {
 .mobile-menu-socials {
     display: flex;
     gap: 56px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 427px) {
+    .mobile-menu-socials {
+        gap: 24px;
+    }
 }
     
 .mobile-menu-socials-item {
